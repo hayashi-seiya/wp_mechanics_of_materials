@@ -6,7 +6,13 @@ Author: 林 誓哉
 Version:1.0
 */
 
-/* layout base */
+/* components */
+p {
+  font-size: 16px;
+  text-indent: 1em; /* 段落開始の字下げ */
+}
+
+/* base of layout */
 
 .right {
   float:right;
@@ -36,9 +42,13 @@ Version:1.0
 }
 
 .introContents p {
-  white-space: pre-wrap;
+  /*white-space: pre-wrap;*/
 }
 
+.strong {
+  /* strongタグもあるが、廃止予定なのでstrongクラスを追加 */
+  font-weight: bold;
+}
 /* color */
 .white {
   color: #fff;
