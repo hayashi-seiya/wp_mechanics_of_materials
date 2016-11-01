@@ -21,6 +21,23 @@
 <body class=<?php body_class(); ?>>
 <header class="header">
   <div class="container">
-    <h1 class="white"><a class="white" href=<?php echo home_url(); ?>>Mechanics of Materials for Meiji</a></h1>
+    <div class="row">
+      <div class="headerTitle col-md-9">
+        <h1 class="white"><a class="white" href=<?php echo home_url(); ?>>Mechanics of Materials for Meiji</a></h1>
+      </div>
+
+      <!--検索フォーム-->
+      <div class="searchBoxOuter col-md-3">
+        <div class="searchBoxInner">
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
   </div>
 </header>
