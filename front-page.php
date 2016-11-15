@@ -17,7 +17,7 @@
     </div>
 
     <div class="col-md-9">
-			<?php get_template_part( "TopContents" ); ?>
+		<?php get_template_part( "TopContents" ); ?>
     </div>
 
   </div>
