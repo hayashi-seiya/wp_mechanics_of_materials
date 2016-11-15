@@ -10,12 +10,6 @@
   <h2>目次</h2>
   <ul>
     <li>
-          <?php
-          $indexes = getIndex();
-          foreach($indexes as $index){
-              echo "<a>".$index."</a>";
-          }
-          ?>
       <!--
         TODO <a>タグのあとのテキストをページごとに動的に出力したい
         参照URL: http://media.tech-salon.com/php-%E3%83%87%E3%83%BC%E3%82%BF%E5%8F%96%E5%BE%97-pregmatch/
