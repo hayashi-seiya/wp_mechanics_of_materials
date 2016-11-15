@@ -13,11 +13,14 @@
   <div class="row">
 
     <div class="col-md-3">
-      <?php get_sidebar(); ?>
+		<?php get_sidebar(); ?>
     </div>
 
     <div class="col-md-9">
+<<<<<<< HEAD
 		<?php get_template_part( "TopContents" ); ?>
+=======
+>>>>>>> 396af4814f81263bc401dfab9ded11a06b2055a0
     </div>
 
   </div>

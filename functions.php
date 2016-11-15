@@ -1,12 +1,14 @@
 <?php
-/* navbar追加 */
-add_theme_support( 'menus' );
 
-/* <ul> 削除 */
-function remove_ul ( $menu ){
+add_theme_support( 'menus' ); /* navbar追加 */
+
+function remove_ul ( $menu )
+{
+    /* <ul> 削除 */
     return preg_replace( array( '#^<ul[^>]*>#', '#</ul>$#' ), '', $menu );
 }
 add_filter( 'wp_nav_menu', 'remove_ul' );
+<<<<<<< HEAD
 
 function my_scripts() {
     /* jQuery追加 */
@@ -46,3 +48,5 @@ function getIndex()
 
 
 ?>
+=======
+>>>>>>> 396af4814f81263bc401dfab9ded11a06b2055a0
