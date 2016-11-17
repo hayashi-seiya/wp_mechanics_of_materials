@@ -4,7 +4,7 @@
 	<div class="container">
 		<p>
 			明治大学生向けのWEBサイトです。
-		</p><?php var_dump(setIndex()); ?>
+		</p>
 		<p><a href="https://oh-o2.meiji.ac.jp/portal/oh-o_meiji/" target="_blank">Oh-o! Meiji</a>はこちら</p>
 	</div>
 </div>
