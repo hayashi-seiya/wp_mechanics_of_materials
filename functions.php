@@ -34,6 +34,3 @@ function getCurrentUrl()
     return $currentUrl;
 }
 
-
-?>
-
