@@ -8,6 +8,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="alternate" type="application/rss+xml" href="">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
+<?php wp_deregister_script('jquery'); ?>
+<!-- WordPressのjQueryを読み込ませない -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <!-- LATEX 導入 -->
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <!-- Latest compiled and minified CSS -->
