@@ -16,6 +16,42 @@ function my_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
+function topIndex()
+{
+    $indexes = array("目的","本サイトの構成");
+    return $indexes;
+}
+
+function aboutIndex()
+{
+    $indexes = array("材料力学とは");
+    return $indexes;
+}
+
+function stressIndex()
+{
+    $indexes = array("応力とひずみとは","垂直応力と垂直ひずみ");
+    return $indexes;
+}
+
+function tensileIndex()
+{
+    $indexes = array("目的","本サイトの構成");
+    return $indexes;
+}
+
+function twistIndex()
+{
+    $indexes = array("目的","本サイトの構成");
+    return $indexes;
+}
+
+function bendIndex()
+{
+    $indexes = array("目的","本サイトの構成");
+    return $indexes;
+}
+
 function setFileGetContentsTime()
 {
     //後で戻せるように設定を取得しておく

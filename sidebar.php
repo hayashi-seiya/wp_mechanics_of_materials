@@ -9,11 +9,17 @@
 <div class="navbar">
   <h2>目次</h2>
   <ul>
-    <li>
-      <!--
-        TODO <a>タグのあとのテキストをページごとに動的に出力したい
-        参照URL: http://media.tech-salon.com/php-%E3%83%87%E3%83%BC%E3%82%BF%E5%8F%96%E5%BE%97-pregmatch/
-      -->
-    </li>
+    <?php
+    if (is_front_page()) {$indexes = topIndex();}
+    if (is_category('about')) {$indexes = aboutIndex();}
+    if (is_category('stress')) {$indexes = stressIndex();}
+    if (is_category('tensile')) {$indexes = tensileIndex();}
+    if (is_category('twist')) {$indexes = twistIndex();}
+    if (is_category('bend')) {$indexes = bendIndex();}
+
+    foreach ($indexes as $index) {
+      echo "<li><a>".$index."</a>";
+    }
+    ?>
   </ul>
 </div>
