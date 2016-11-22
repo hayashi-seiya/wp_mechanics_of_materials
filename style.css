@@ -69,6 +69,10 @@ body {
   text-decoration: none;
 }
 
+.jumbotron {
+  background-position: 40% 50%;
+}
+
 
 .footer {
   background-color: rgba(42,41,140,0.9);

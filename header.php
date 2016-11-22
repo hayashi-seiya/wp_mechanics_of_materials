@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
+<charset="UTF-8">
 <meta name="author" content="">
 <meta name="description" content="">
 <meta name="format-detection" content="telephone=no,address=no,email=no">
