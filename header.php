@@ -28,7 +28,6 @@
       <div class="headerTitle col-md-9">
         <h1 class="white"><a class="white" href=<?php echo home_url(); ?>>Mechanics of Materials for Meiji</a></h1>
       </div>
-
       <!--検索フォーム-->
       <div class="searchBoxOuter col-md-3">
         <div class="searchBoxInner">
@@ -40,7 +39,6 @@
           </form>
         </div>
       </div>
-
     </div>
   </div>
 </header>
