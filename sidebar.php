@@ -6,7 +6,7 @@
     </div>
   </div>
 </nav>
-<div class="navbar">
+<div class="index">
   <h2>目次</h2>
   <ul>
     <?php

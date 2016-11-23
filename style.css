@@ -73,6 +73,9 @@ body {
   background-position: 40% 50%;
 }
 
+.index ul , .menu {
+  list-style-type: none !important;
+}
 
 .footer {
   background-color: rgba(42,41,140,0.9);

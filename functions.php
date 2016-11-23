@@ -16,6 +16,10 @@ function my_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
+function getIndex()
+{
+}
+
 function topIndex()
 {
     $indexes = array("目的","本サイトの構成");
@@ -64,7 +68,7 @@ function setFileGetContentsTime()
 
 function getCurrentUrl()
 {
-    $page_url_get = 'http://'.$_SERVER["HTTP_HOST"].$_SERVER['PHP_SELF'];
+    $page_url_get = 'http://'.$_SERVER["HTTP_HOST"].$_SERVER['REQUEST_URI'];
     $search_url = array('index.php','thanks.php');
     $currentUrl = str_replace($search_url,'',$page_url_get);
     return $currentUrl;
