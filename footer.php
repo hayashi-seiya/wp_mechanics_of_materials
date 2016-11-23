@@ -3,7 +3,7 @@
   <div class="container">
     <div class="copyright right clearfix">
       <p class="white">
-        © Meiji University,All rights reserved.
+        © 2016 SEIYA HAYASHI
       </p>
     </div>
   </div>
