@@ -8,7 +8,7 @@
 
     <div class="col-md-9">
       <article class=<?php post_class(); ?>>
-
+        <?php get_template_part("TwistContents"); ?>
       </article>
     </div>
 
