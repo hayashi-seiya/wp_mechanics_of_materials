@@ -70,3 +70,10 @@ function getCurrentUrl()
     return $currentUrl;
 }
 
+
+function getInlineTex($text)
+{
+    $numerical = "\(".$text."\)";
+    print $numerical;
+}
+
