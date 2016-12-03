@@ -1,13 +1,16 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
+<charset="UTF-8">
 <meta name="author" content="">
 <meta name="description" content="">
 <meta name="format-detection" content="telephone=no,address=no,email=no">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="alternate" type="application/rss+xml" href="">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
+<?php wp_deregister_script('jquery'); ?>
+<!-- WordPressのjQueryを読み込ませない -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <!-- LATEX 導入 -->
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <!-- Latest compiled and minified CSS -->
@@ -25,7 +28,6 @@
       <div class="headerTitle col-md-9">
         <h1 class="white"><a class="white" href=<?php echo home_url(); ?>>Mechanics of Materials for Meiji</a></h1>
       </div>
-
       <!--検索フォーム-->
       <div class="searchBoxOuter col-md-3">
         <div class="searchBoxInner">
@@ -37,7 +39,6 @@
           </form>
         </div>
       </div>
-
     </div>
   </div>
 </header>
