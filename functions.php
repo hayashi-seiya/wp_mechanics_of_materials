@@ -70,10 +70,20 @@ function getCurrentUrl()
     return $currentUrl;
 }
 
-
 function getInlineTex($text)
 {
     $numerical = "\(".$text."\)";
     print $numerical;
 }
 
+function getTex($text)
+{
+    $numerical = "\begin{align}".$text."\\end{align}";
+    print $numerical;
+}
+
+function getEqnarrayTex($text)
+{
+    $numerical = "\begin{eqnarray}".$text."\\end{eqnarray}";
+    print $numerical;
+}

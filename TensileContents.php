@@ -11,12 +11,12 @@
     棒の軸方向に荷重<?php getInlineTex("P")?>が作用している時の
     棒の伸び<?php getInlineTex("\lambda") ?>を求める。
     軸方向の応力 <?php getInlineTex("\sigma=P/A") ?> が比例限度内、つまりフックの法則が成り立つ場合、応力は</p>
-<p><?php getInlineTex("\sigma=E\\varepsilon")?></p>
+<p><?php getTex("\sigma=E\\varepsilon")?></p>
 <p>と書くことができる。ここでEは弾性係数と呼ばれ、これは応力ーひずみ線図の比例区間内の傾きである。これよりひずみは、</p>
-<p><?php getInlineTex("\\varepsilon = \\frac{\sigma}{E} = P/AE") ?></p><!-- これは別行立てのtexに記述 -->
+<p><?php getTex("\\varepsilon=\\frac{\sigma}{E}=\\frac{P}{AE}") ?></p>
 <p>となる。一方、ひずみは <?php getInlineTex("\\varepsilon=\\frac{\lambda}{l}") ?>で表され、
     この式から伸び<?php getInlineTex("\lambda") ?>は</p>
-<p>λ =  εl = Pl/AE</p>
+<p><?php getTex("\lambda=\\varepsilon l=\\frac{Pl}{AE}")?></p>
 <p>となる。</p>
 <h3>段付き棒の伸び</h3>
 <p><strong>P35 図3.5挿入</strong></p>
@@ -29,7 +29,10 @@
     <?php getInlineTex("Q_2")?>の大きさは
     外力<?php getInlineTex("P")?>と等しい。
     このことから棒全体の伸びは、</p>
-<p><strong>P35 式3.4挿入</strong></p>
+<p><?php getTex(
+        "\lambda=\lambda_1+\lambda_2+\lambda_3=\\frac{Pl_1}{A_1E_1}+\\frac{Pl_2}{A_2E_2}+\\frac{Pl_3}{A_3E_3}=
+        P\sum_{i=1}^3\\frac{l_i}{A_iE_i}"
+    ) ?></p>
 <p>のように得られる。</p>
 <h3>重ね合わせの原理</h3>
 <p>フックの法則は線形であるので、1つの部材に複数の荷重が作用している時の変形は、
