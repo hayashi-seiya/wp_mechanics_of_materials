@@ -32,9 +32,12 @@ p {
   text-align: left;
 }
 
-.h3 {
-  padding-left: 10px;
-  border-left: 10px solid rgba(42,41,140,0.9);
+h2 {
+  border-bottom: 1px solid rgba(42,41,140,0.9);;
+}
+h3 {
+  padding-left: 10px; !important;
+  border-left: 10px solid rgba(42,41,140,0.9); !important;
 }
 
 .introContents, .probContents {
