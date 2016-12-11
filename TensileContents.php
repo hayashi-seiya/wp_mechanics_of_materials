@@ -10,7 +10,7 @@
         <p>
             断面積に比べて長さが長い部材のことを棒と呼び、真っ直ぐな部材を真直棒と呼ぶ。
         </p>
-        <p><img src="<?php echo get_template_directory_uri() ?>/tensile_img1.jpeg" class="img" alt="図1 引張応力による伸び"/></p>
+        <p><img src="<?php echo get_template_directory_uri() ?>/tensile_img1.jpeg" class="img" style="max-height:250px !important;" alt="図1 引張応力による伸び"/></p>
         <p>
             図のように長さ<?php getInlineTex("l") ?>、断面積<?php getInlineTex("A") ?>の均質で等方な棒<?php getInlineTex("AB") ?>がある。
             棒の軸方向に荷重<?php getInlineTex("P")?>が作用している時の
@@ -35,12 +35,12 @@
             断面積<?php getInlineTex("A_i")?>、
             弾性定数<?php getInlineTex("E_i")?><?php getInlineTex(" (i=1,2,3)")?>であり、
             棒にはその両端にのみ荷重<?php getInlineTex("P")?>が作用している。
-            この時、
+            この時、段付き棒の各要素ごとにかかる力に着目する。
         </p>
-        <img src="<?php echo get_template_directory_uri() ?>/tensile_img3.jpeg" class="img" alt="図2 段付き棒の荷重のかかり方"/>
+        <img src="<?php echo get_template_directory_uri() ?>/tensile_img3.jpeg" class="img" style="max-height: 300px !important;" alt="図2 段付き棒の荷重のかかり方"/>
         <p>
-            段付き棒の各要素ごとにかかる力に着目する。
-            この時、内力<?php getInlineTex("Q_1")?>、
+            上図のようになっており、よって
+            内力<?php getInlineTex("Q_1")?>、
             <?php getInlineTex("Q_2")?>の大きさは
             外力<?php getInlineTex("P")?>と等しい。
             このことから棒全体の伸びは、

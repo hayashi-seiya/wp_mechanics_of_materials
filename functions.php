@@ -30,25 +30,25 @@ function aboutIndex()
 
 function stressIndex()
 {
-    $indexes = array("応力とひずみとは","垂直応力と垂直ひずみ");
+    $indexes = array("応力とひずみとは","応力", "ひずみ", "縦ひずみと横ひずみ", "ポアソン比");
     return $indexes;
 }
 
 function tensileIndex()
 {
-    $indexes = array("目的","本サイトの構成");
+    $indexes = array("引張力と圧縮力とは","棒の伸び", "段付き棒の伸び", "重ね合わせの原理");
     return $indexes;
 }
 
 function twistIndex()
 {
-    $indexes = array("目的","本サイトの構成");
+    $indexes = array("ねじりとは","ねじれ角", "軸の応力とひずみ", "軸のねじれ角");
     return $indexes;
 }
 
 function bendIndex()
 {
-    $indexes = array("目的","本サイトの構成");
+    $indexes = array("曲げ応力","断面係数", "たわみ");
     return $indexes;
 }
 

@@ -1,6 +1,6 @@
 <h2>はりの曲げ</h2>
     <h3>曲げ応力</h3>
-        <p><a href='http://d-engineer.com/img/c0043.gif' target='_blank' >http://d-engineer.com/img/c0043.gif</a></p>
+        <img src="<?php echo get_template_directory_uri() ?>/bend_img1.jpeg" class="img" alt="図1 せん断力による効果"/>
         <p>
             上図のようにはりにせん断力が作用すると、
             部材の上面は引っ張られ、部材の下面は圧縮されることになります。
@@ -8,7 +8,7 @@
             この場合、部材の上面で引張応力が最大となり、部材の下面で圧縮応力が最大となります。
         </p>
         <p>
-            以上のように、断面には　引張応力　と　圧縮応力　の２つの応力が発生していることになり、
+            以上のように、断面には引張応力と圧縮応力の２つの応力が発生していることになり、
             これらを総称して<strong>曲げ応力</strong>といいます。
         </p>
         <p>

@@ -16,7 +16,7 @@
             左側を壁に固定し、右端にねじりモーメント<?php getInlineTex("T") ?>を
             受ける半径<?php getInlineTex("r") ?>の真直丸軸の変形の様子を以下の図に示す。
         </p>
-        <p><strong>P47 図4.4挿入</strong></p>
+        <img src="<?php echo get_template_directory_uri() ?>/twist_img1.jpeg" class="img" alt="図1 ねじりモーメントとねじり"/>
         <p>
             この時の横断面の相対回転角<?php getInlineTex("\phi") ?>をねじれ角と呼ぶ。
             また、単位長さあたりのねじれ角を比ねじれ角と呼び、<?php getInlineTex("\\theta") ?>で表す。
