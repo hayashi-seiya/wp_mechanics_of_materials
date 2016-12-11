@@ -6,11 +6,11 @@
             その最適な解を導く時に大事な考えとなるのが、この応力とひずみである。
         </p>
     <h3>応力</h3>
+        <img src="<?php echo get_template_directory_uri() ?>/stress_img1.jpeg" class="img" alt="図1 垂直応力"/>
         <p>
             軸に引張(圧縮)荷重が作用している時に、その軸上の任意の断面に分布している力を引張(圧縮)応力という。
             またこれらは、面に垂直な方向に働くため垂直応力ともいう。
         </p>
-        <p>＜応力がわかる図 1-1＞</p>
         <p>垂直応力はよく<?php getInlineTex("\sigma")?>で表され、その求め方は、
             <?php getTex("\sigma=\\frac{P}{A}")?>
             である。<?php getInlineTex("A")?>は軸の断面積、<?php getInlineTex("P")?>は軸にかかる荷重である。
@@ -21,13 +21,14 @@
             断面に垂直な方向成分であり、単位は<?php getInlineTex("Pa(N/m^2)")?>である。
         </p>
     <h3>ひずみ</h3>
+        <img src="<?php echo get_template_directory_uri() ?>/stress_img2.jpeg" class="img" alt="図2 垂直応力による伸び"/>
         <p>
             材料に荷重を加えていくと、形状変化、つまり<strong>変形</strong>が起きる。
             長さ<?php getInlineTex("L")?>の棒に引張荷重を加えた結果、長さ<?php getInlineTex("L_1")?>に変形したとすると、
             <strong>伸び</strong>は<?php getInlineTex("L_1-L")?>になり、たいてい<?php getInlineTex("\lambda")?>で表せられる。
             また、単位長さあたりの伸びを<strong>ひずみ</strong>といい、<?php getInlineTex("\\varepsilon")?>で表される。すなわち
             <?php getTex("\\varepsilon=\\frac{L_1-L}{L}=\\frac{\lambda}{L}")?>
-            となる。<strong>教科書ｐ21 2.5</strong>
+            となる。
         </p>
     <h3>縦ひずみと横ひずみ</h3>
         <p>

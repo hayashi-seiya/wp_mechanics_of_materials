@@ -14,7 +14,7 @@
     <h3>ねじれ角</h3>
         <p>
             左側を壁に固定し、右端にねじりモーメント<?php getInlineTex("T") ?>を
-            受ける半径<?php getInlineTex("a") ?>の真直丸軸の変形の様子を以下の図に示す。
+            受ける半径<?php getInlineTex("r") ?>の真直丸軸の変形の様子を以下の図に示す。
         </p>
         <p><strong>P47 図4.4挿入</strong></p>
         <p>

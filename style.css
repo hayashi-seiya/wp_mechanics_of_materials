@@ -12,6 +12,13 @@ p {
   text-indent: 1em; /* 段落開始の字下げ */
 }
 
+.img{
+  display: block;
+  width: auto !important;
+  max-height: 250px !important;
+  margin: auto;
+}
+
 /* base of layout */
 
 .right {
