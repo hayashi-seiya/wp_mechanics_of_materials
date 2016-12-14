@@ -3,7 +3,7 @@
   <div class="container">
     <div class="copyright right clearfix">
       <p class="white">
-        © Meiji University,All rights reserved.
+        © seiyaHayashi,All rights reserved.
       </p>
     </div>
   </div>
