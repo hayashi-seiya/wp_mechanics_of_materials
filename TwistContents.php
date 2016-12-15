@@ -22,7 +22,8 @@
             また、単位長さあたりのねじれ角を比ねじれ角と呼び、<?php getInlineTex("\\theta") ?>で表す。
             断面が一様であれば、長さ<?php getInlineTex("l") ?>の軸のどの断面においても比ねじれ角は同じである。
         </p>
-        <p>せん断ひずみとねじれ角の関係は、
+        <p>
+            せん断ひずみとねじれ角の関係は、
             <?php getTex("\gamma=r\\theta=r\\frac{\phi_l}{l}") ?>
             となり、せん断ひずみは、両端のねじれ角に比例し、軸の長さ<?php getInlineTex("l") ?>に反比例する。
         </p>
@@ -35,12 +36,13 @@
             一般的には横弾性係数ということが多い。
         </p>
         <p>
-            <strong>P47 図4.4</strong>より、
-            <?php getTex("\\tau=\\frac{r}{a}\\tau_{max}") ?>
+            任意の半径<?php getInlineTex("a") ?>でのせん断応力は
+            <?php getTex("\\tau=\\frac{a}{r}\\tau_{max}") ?>
+            となり、半径<?php getInlineTex("r") ?>で最大せん断応力となる。
         </p>
         <p>
             ねじりモーメント<?php getInlineTex("T") ?>は上記の2式から、
-            <?php getTex("T=\\frac{\\tau_{max}}{a}\int_Ar^2dA=\\frac{\\tau_{max}}{a}I_p\ ,\hspace{5mm}I_p=\int_Ar^2dA") ?>
+            <?php getTex("T=\\frac{\\tau_{max}}{r}\int_Aa^2dA=\\frac{\\tau_{max}}{r}I_p\ ,\hspace{5mm}I_p=\int_Aa^2dA") ?>
             となる。ここで<?php getInlineTex("I_p") ?>は断面二次極モーメントという。
             式4.7と4.8から<?php getInlineTex("\\tau_{max}") ?>を消去すると、せん断応力<?php getInlineTex("\\tau") ?>は
             <?php getTex("\\tau=\\frac{Tr}{I_p}") ?>
@@ -64,14 +66,14 @@
         </p>
     <h3>軸のねじれ角</h3>
         <p>
-            <strong>P47 図4.4</strong>のような、半径<?php getInlineTex("a") ?>、長さ<?php getInlineTex("l") ?>の軸に
+            図のような、半径<?php getInlineTex("r") ?>、長さ<?php getInlineTex("l") ?>の軸に
             ねじりモーメント<?php getInlineTex("T") ?>が作用している時の、
             ねじれ角は最大せん断ひずみ<?php getInlineTex("\gamma_{max}") ?>を用いて表すことができる。
             ねじれ角<?php getInlineTex("\phi") ?>は、
-            <?php getTex("\phi=\gamma_{max}\\frac{l}{a}=\\frac{\\tau_{max}}{G}\\frac{l}{a}") ?>
+            <?php getTex("\phi=\gamma_{max}\\frac{l}{r}=\\frac{\\tau_{max}}{G}\\frac{l}{r}") ?>
             となる。</p>
         <p>
-            さらに、<strong style="color: red;">丸軸の上の式    </strong>より、<?php getInlineTex("\\tau_{max}"); ?>を
+            さらに、ねじりモーメント<?php getInlineTex("T") ?>の式より、<?php getInlineTex("\\tau_{max}"); ?>を
             <?php getInlineTex("T") ?>で表せば、以下のねじれ角とねじりモーメントが得られる。
             <?php getTex("\phi=\\frac{\\tau_{max}l}{Ga}=\\frac{Tl}{GI_p}") ?>
             この式より、ねじれ角はねじりモーメントに比例することがわかる。

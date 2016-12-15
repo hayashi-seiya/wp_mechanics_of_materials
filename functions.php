@@ -87,3 +87,9 @@ function getEqnarrayTex($text)
     $numerical = "\begin{eqnarray}".$text."\\end{eqnarray}";
     print $numerical;
 }
+
+function getEquationTex($text)
+{
+    $numerical = "\begin{equation}".$text."\\end{equation}";
+    print $numerical;
+}
